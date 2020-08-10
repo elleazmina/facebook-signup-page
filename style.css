@@ -200,6 +200,7 @@ body{
     font-weight: 500;
     font-size: 20px;
     transition: 0.5s;
+    margin-bottom: 30px;
 }
 .submit-button input:hover {
     background: linear-gradient(#578843, #67ae55);
@@ -213,4 +214,48 @@ body{
 }
 .create-page:hover a {
     text-decoration: underline;
+}
+/* Start Footer Area */
+.footer-area {
+    padding: 30px 0;
+}
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-area ul li {
+    display: inline;
+}
+.footer-area .top ul li {
+    margin-right: 10px;
+}
+.footer-area .middle ul li {
+    margin-right: 20px;
+}
+.footer-area .top ul li:last-child,
+.footer-area .bottom ul li:last-child {
+    margin-right: 0;
+}
+.footer-area .top ul li:last-child a {
+    border: 1px solid #999;
+    padding: 1px 6px;
+}
+.footer-area ul li a {
+    text-decoration: none;
+    color: #365899;
+    font-size: 14px;
+}
+.footer-area ul li.active a {
+    color: #737373;
+}
+.footer-area span {
+    color: #737373;
+    font-size: 14px;
+}
+.footer-area hr {
+    border: 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+.footer-area .bottom {
+    margin-top: 20px;
 }
